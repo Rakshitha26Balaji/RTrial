@@ -1,0 +1,13 @@
+.sidebar-toolbar {
+  display: flex;
+  justify-content: center;
+}
+.sidebar-logo {
+  height: 4em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.sidebar-logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}

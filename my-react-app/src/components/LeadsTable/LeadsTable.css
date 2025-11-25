@@ -1,0 +1,59 @@
+.table-wrapper {
+  width: 95%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+/* Add Row Button Styling */
+.add-btn {
+  background: linear-gradient(90deg, #003f87, #0095ff) !important;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 6px 20px;
+}
+
+/* Table Container Styling */
+.grid-container {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Delete Button */
+.delete-btn {
+  color: #e53935 !important;
+  min-width: 32px !important;
+}
+
+/* Status Chips */
+.chip-submitted {
+  background-color: #4caf50 !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.chip-not {
+  background-color: #ff9800 !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.chip-idst {
+  background-color: #1976d2 !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.chip-iust {
+  background-color: #8e24aa !important;
+  color: white !important;
+  font-weight: 600;
+}
+.chip-rej {
+  background-color: #e53935 !important;
+  color: white !important;
+  font-weight: 600;
+}
